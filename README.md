@@ -15,4 +15,4 @@ $ pip install beautifulsoup4
 
 $ python crypto.py
 
-![](screenshot.png)
+![](screenshots.png)
