@@ -34,7 +34,6 @@ eth_soup = BeautifulSoup(eth_src, "lxml")
 
 
 #Search on each CoinMarketCap html for the value we need
-#same steps as before
 bnb_ = bnb_soup.find("div", {"class":"priceValue"})   #this is a list
 bnb_list.append(bnb_.text)   #get just the text and append it in bnb_list
 
